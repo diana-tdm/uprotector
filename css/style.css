@@ -441,3 +441,70 @@ h3 span {
   line-height: 21px;
   color: #000000;
 }
+
+/*blogpage.html section class="search"*/
+
+.search_element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search__triangle {
+  color: #fff;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+/*section class="post"*/
+
+.post__element {
+  padding: 40px 45px 0;
+}
+
+.post__title {
+  text-align: left;
+  margin: 10px 0 20px;
+}
+
+.post__item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.post__item p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 20px;
+}
+
+.post__item span {
+  color: #3867d6;
+}
+
+.post__clock {
+  margin-right: 0;
+}
+
+.post__image {
+  margin-bottom: 40px;
+}
+.post__text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+.post__text-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
