@@ -459,7 +459,7 @@ h3 span {
 /*section class="post"*/
 
 .post__element {
-  padding: 40px 45px 0;
+  padding: 40px 45px 54px;
 }
 
 .post__title {
@@ -492,6 +492,7 @@ h3 span {
 .post__image {
   margin-bottom: 40px;
 }
+
 .post__text {
   font-weight: normal;
   font-size: 18px;
@@ -500,11 +501,22 @@ h3 span {
   opacity: 0.8;
   margin-bottom: 40px;
 }
+
 .post__text-title {
+  text-align: left;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 54px;
   color: #000000;
   opacity: 0.9;
   margin-bottom: 20px;
+}
+
+/*section class="articles"*/
+
+.articles {
+  padding: 40px 0 60px;
+}
+
+.articles__title {
+  text-align: left;
+  margin-bottom: 40px;
 }
