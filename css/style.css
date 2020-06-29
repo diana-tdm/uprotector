@@ -371,3 +371,73 @@ h3 span {
   line-height: 21px;
   color: #ffffff;
 }
+
+/*blog.html section class="search"*/
+
+.search {
+  background-color: #4b7bec;
+  padding: 40px 0;
+}
+
+.search__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search__title {
+  color: #fff;
+}
+
+.search__magnify {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+}
+
+/*section class="blog"*/
+
+.blog {
+  padding: 60px 0 40px;
+}
+
+.blog__element {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.blog__element:last-child {
+  margin-bottom: 0;
+}
+
+.blog__image {
+  width: 100%;
+}
+
+.blog__element-text {
+  padding: 20px 20px;
+}
+
+.blog__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4b7bec;
+}
+
+.blog__title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.blog__data {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
