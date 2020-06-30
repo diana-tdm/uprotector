@@ -645,3 +645,32 @@ h3 span {
   color: #ffffff;
   opacity: 0.5;
 }
+
+/*confirm.html section class="waitlist waitlist--confirm"*/
+
+.waitlist__image--confirm {
+  margin-bottom: 160px;
+}
+
+.waitlist-left__title--confirm {
+  margin-bottom: 20px;
+}
+
+.waitlist-left__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #2bcbba;
+}
+
+.waitlist-right--confirm {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+}
+
+.waitlist-right--confirm__image {
+  align-self: center;
+  margin: 0 auto;
+}
